@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "com.etribe.technical.test.config.RsaKey",
+      "sourceType": "com.etribe.technical.test.config.RsaKey"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.etribe.technical.test.config.RsaKey"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.etribe.technical.test.config.RsaKey"
+    }
+  ],
+  "hints": []
+}
